@@ -1,1 +1,79 @@
 2020-09-19 13:27:09,372 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-19 16:54:08,400 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: L2_03_jetty:L2_03_jetty:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\pom.xml.
+2020-09-19 16:54:09,357 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 16:54:09,369 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-19 16:54:09,377 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 16:54:09,388 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-19 16:54:10,728 [Worker-30: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: L2_03_jetty:L2_03_jetty:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\pom.xml.
+2020-09-19 16:54:10,742 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 16:54:10,753 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-19 16:54:10,756 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 16:54:10,772 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-19 16:54:11,526 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 16:54:11,535 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-19 16:54:11,536 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 16:54:11,544 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-19 17:05:02,102 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Addition:Addition:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\pom.xml.
+2020-09-19 17:05:03,639 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Addition/src
+2020-09-19 17:05:03,640 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Addition/src/test/java because it overlaps with /Addition/src
+2020-09-19 17:05:04,491 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-09-19 17:05:04,606 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Addition:Addition:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\pom.xml.
+2020-09-19 17:05:05,624 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Addition/src
+2020-09-19 17:05:05,625 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Addition/src/test/java because it overlaps with /Addition/src
+2020-09-19 17:05:05,988 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Addition
+2020-09-19 17:05:06,002 [Worker-41: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-09-19 17:05:06,135 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:05:06,149 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:05:06,152 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:05:06,163 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:05:06,164 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Addition
+2020-09-19 17:05:06,165 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Addition
+2020-09-19 17:05:06,169 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2020-09-19 17:05:06,188 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:33,515 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:33,535 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:06:33,538 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:33,550 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:06:49,976 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:49,988 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:06:49,990 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:50,008 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:06:56,539 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:56,547 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:06:56,549 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:06:56,558 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:07:00,938 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:07:00,951 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:07:00,952 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:07:00,958 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:09:01,952 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:09:01,962 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:09:01,965 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:09:01,972 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:40:55,075 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:40:55,092 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:40:55,094 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:40:55,108 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:41:20,033 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:41:20,048 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:41:20,050 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:41:20,063 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:41:32,911 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:41:32,925 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:41:32,926 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:41:32,936 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 17:42:29,396 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:42:29,404 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 17:42:29,406 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 17:42:29,414 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 19:32:55,872 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-19 19:33:03,747 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 19:33:03,927 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\main\resources
+2020-09-19 19:33:03,933 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 19:33:03,956 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Addition\src\test\resources
+2020-09-19 20:36:53,999 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 20:36:54,094 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-19 20:36:54,098 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 20:36:54,105 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-19 20:36:55,262 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 20:36:55,276 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
