@@ -9,13 +9,14 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
      <sequence>
       <element name="a" type="xsd:int"/>
       <element name="b" type="xsd:int"/>
+      <element name="cur" type="xsd:string"/>
      </sequence>
     </complexType>
    </element>
    <element name="addResponse">
     <complexType>
      <sequence>
-      <element name="addReturn" type="xsd:int"/>
+      <element name="addReturn" type="xsd:string"/>
      </sequence>
     </complexType>
    </element>

@@ -20,9 +20,10 @@
       <parameter name="className" value="ws.CalculatorSoapBindingImpl"/>
       <parameter name="wsdlPortType" value="Calculator"/>
       <parameter name="typeMappingVersion" value="1.2"/>
-      <operation name="add" qname="operNS:add" xmlns:operNS="http://ws" returnQName="retNS:addReturn" xmlns:retNS="http://ws" returnType="rtns:int" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      <operation name="add" qname="operNS:add" xmlns:operNS="http://ws" returnQName="retNS:addReturn" xmlns:retNS="http://ws" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
         <parameter qname="pns:a" xmlns:pns="http://ws" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
         <parameter qname="pns:b" xmlns:pns="http://ws" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:cur" xmlns:pns="http://ws" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
       </operation>
       <parameter name="allowedMethods" value="add"/>
 

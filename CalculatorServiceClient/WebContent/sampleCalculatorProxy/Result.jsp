@@ -61,6 +61,29 @@ if(getCalculator10mtemp == null){
         <%
         }}
 break;
+case 13:
+        gotMethod = true;
+        String a_1id=  request.getParameter("a16");
+        int a_1idTemp  = Integer.parseInt(a_1id);
+        String b_2id=  request.getParameter("b18");
+        int b_2idTemp  = Integer.parseInt(b_2id);
+        String cur_3id=  request.getParameter("cur20");
+            java.lang.String cur_3idTemp = null;
+        if(!cur_3id.equals("")){
+         cur_3idTemp  = cur_3id;
+        }
+        java.lang.String add13mtemp = sampleCalculatorProxyid.add(a_1idTemp,b_2idTemp,cur_3idTemp);
+if(add13mtemp == null){
+%>
+<%=add13mtemp %>
+<%
+}else{
+        String tempResultreturnp14 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(add13mtemp));
+        %>
+        <%= tempResultreturnp14 %>
+        <%
+}
+break;
 }
 } catch (Exception e) { 
 %>

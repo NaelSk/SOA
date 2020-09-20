@@ -8,5 +8,5 @@
 package ws;
 
 public interface Calculator extends java.rmi.Remote {
-    public int add(int a, int b) throws java.rmi.RemoteException;
+    public java.lang.String add(int a, int b, java.lang.String cur) throws java.rmi.RemoteException;
 }

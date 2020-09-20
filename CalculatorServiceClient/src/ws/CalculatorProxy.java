@@ -44,5 +44,11 @@ public class CalculatorProxy implements ws.Calculator {
     return calculator;
   }
   
+  public java.lang.String add(int a, int b, java.lang.String cur) throws java.rmi.RemoteException{
+    if (calculator == null)
+      _initCalculatorProxy();
+    return calculator.add(a, b, cur);
+  }
+  
   
 }
