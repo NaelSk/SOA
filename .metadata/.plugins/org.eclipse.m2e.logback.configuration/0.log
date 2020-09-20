@@ -549,3 +549,15 @@
 2020-09-20 14:38:50,005 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
 2020-09-20 14:38:50,007 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-09-20 14:38:50,017 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
+2020-09-20 14:38:50,017 [Worker-193: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CalculatorService
+2020-09-20 14:38:50,017 [Worker-193: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CalculatorService
+2020-09-20 14:38:50,025 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 14:52:08,554 [Worker-195: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-09-20 14:52:10,935 [Worker-195: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CalculatorService:CalculatorService:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\pom.xml.
+2020-09-20 14:52:15,893 [Worker-195: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CalculatorService/src
+2020-09-20 14:52:15,894 [Worker-195: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CalculatorService/src/test/java because it overlaps with /CalculatorService/src
+2020-09-20 14:52:16,398 [Worker-195: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CalculatorService
+2020-09-20 14:52:16,406 [Worker-195: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2020-09-20 14:52:17,852 [Worker-199: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 14:52:17,860 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-20 14:52:17,863 [Worker-199: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
