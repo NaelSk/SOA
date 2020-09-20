@@ -6,8 +6,10 @@ import javax.jws.WebService;
 @WebService (targetNamespace="http://myWSService")
 public class Calculator {
 	@WebMethod
-	public int add(int a, int b) {
-		return a + b;
+	public String add(int a, int b) {
+		int sum;
+		sum= a + b;
+		return Integer.toString(sum);
 	}
 
 }

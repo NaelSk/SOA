@@ -77,3 +77,51 @@
 2020-09-19 20:36:54,105 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
 2020-09-19 20:36:55,262 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-09-19 20:36:55,276 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-19 20:36:55,280 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 20:36:55,292 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-19 21:52:25,563 [Worker-78: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OleksApp:OleksApp:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Copier\pom.xml.
+2020-09-19 21:52:33,888 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 21:52:33,902 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-09-19 21:52:33,913 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 21:52:33,923 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Copier\src\test\resources
+2020-09-19 21:52:36,146 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 21:52:36,206 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-09-19 21:52:36,211 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-19 21:52:36,225 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\Copier\src\test\resources
+2020-09-20 09:00:13,422 [Worker-102: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: L2_03_jetty:L2_03_jetty:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\pom.xml.
+2020-09-20 09:00:16,333 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:00:16,344 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-20 09:00:16,346 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:00:16,353 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-20 09:00:17,970 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:00:18,002 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\main\resources
+2020-09-20 09:00:18,009 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:00:18,021 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\L2_03_jetty\src\test\resources
+2020-09-20 09:14:30,350 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CalculatorService:CalculatorService:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\pom.xml.
+2020-09-20 09:14:31,319 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CalculatorService/src
+2020-09-20 09:14:31,320 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CalculatorService/src/test/java because it overlaps with /CalculatorService/src
+2020-09-20 09:14:32,622 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:14:32,724 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-20 09:14:32,728 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:14:32,764 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
+2020-09-20 09:14:33,661 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-09-20 09:14:34,063 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CalculatorService:CalculatorService:0.0.1-SNAPSHOT @ C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\pom.xml.
+2020-09-20 09:14:34,356 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CalculatorService/src
+2020-09-20 09:14:34,357 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CalculatorService/src/test/java because it overlaps with /CalculatorService/src
+2020-09-20 09:14:34,699 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CalculatorService
+2020-09-20 09:14:34,718 [Worker-106: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-09-20 09:14:35,059 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:14:35,084 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-20 09:14:35,086 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:14:35,142 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
+2020-09-20 09:14:35,143 [Worker-114: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CalculatorService
+2020-09-20 09:14:35,149 [Worker-114: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CalculatorService
+2020-09-20 09:14:35,161 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2020-09-20 09:14:35,378 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:15:31,810 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:15:31,826 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-20 09:15:31,828 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:15:31,834 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
+2020-09-20 09:15:41,182 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-20 09:15:41,190 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-20 09:15:41,191 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
