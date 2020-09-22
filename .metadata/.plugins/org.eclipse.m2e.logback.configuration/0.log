@@ -956,3 +956,26 @@
 2020-09-21 21:46:11,287 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
 2020-09-21 21:46:11,288 [Worker-63: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CalculatorService
 2020-09-21 21:46:11,288 [Worker-63: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CalculatorService
+2020-09-21 21:46:11,298 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:58:31,451 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-09-21 23:58:51,598 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:58:51,609 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-21 23:58:51,612 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:58:51,624 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
+2020-09-21 23:58:58,310 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:58:58,344 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-09-21 23:58:58,367 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:58:58,381 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\OleksApp\src\test\resources
+2020-09-21 23:59:00,483 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:59:00,519 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-09-21 23:59:00,523 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-21 23:59:00,533 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\OleksApp\src\test\resources
+2020-09-22 08:28:33,479 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-22 08:28:47,677 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-22 08:28:47,685 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\main\resources
+2020-09-22 08:28:47,686 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-22 08:28:47,694 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\CalculatorService\src\test\resources
+2020-09-22 08:28:50,213 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-22 08:28:50,231 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-09-22 08:28:50,238 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-22 08:28:50,244 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\naels\Documents\JavaWorkSpace\SOA_Demos\OleksApp\src\test\resources
