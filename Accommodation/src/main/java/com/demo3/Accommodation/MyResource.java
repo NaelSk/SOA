@@ -1,4 +1,4 @@
-package com.demo3.REST;
+package com.demo3.Accommodation;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -20,6 +20,6 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-        return "Good work Nael you Got it!";
+        return "Got it!";
     }
 }

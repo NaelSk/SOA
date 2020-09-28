@@ -20,7 +20,7 @@
 				<inherited>true</inherited>
 				<configuration>
 					<release>1.7</release>
-					
+
 				</configuration>
 			</plugin>
 		</plugins>
@@ -49,10 +49,11 @@
 			<groupId>org.glassfish.jersey.inject</groupId>
 			<artifactId>jersey-hk2</artifactId>
 		</dependency>
-		<dependency> <groupId>org.glassfish.jersey.media</groupId> 
-			<artifactId>jersey-media-json-binding</artifactId> 
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-binding</artifactId>
 		</dependency>
-			
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
