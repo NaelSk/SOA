@@ -18,7 +18,7 @@ public class CustomerResource {
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Customer> getPublications(){
+	public List<Customer> getCustomers(){
 	return customerService.getAllCustomers();
 	}
 	

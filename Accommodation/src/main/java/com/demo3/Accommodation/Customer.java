@@ -46,6 +46,31 @@ public class Customer  {
 		this.email = email;
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((customer_id == null) ? 0 : customer_id.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Customer other = (Customer) obj;
+		if (customer_id == null) {
+			if (other.customer_id != null)
+				return false;
+		} else if (!customer_id.equals(other.customer_id))
+			return false;
+		return true;
+	}
+
 	
 	
 

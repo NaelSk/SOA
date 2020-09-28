@@ -8,10 +8,10 @@ public class CustomerService {
 
 	private static Map<Long, Customer> customers = (Map<Long, Customer>) DBclass.getCustomers();
 	static Long customersCounter = DBclass.getCustomersC();
-	
+	/*
 	public CustomerService() {
 		CustomerService.customersCounter=(long) 0;// This could guarantee that each customer has uniqe id
-	}
+	}*/
 
 	public static Customer addCustomer(Customer newCustomer) {
 		   newCustomer.setCustomer_id(customersCounter);
@@ -19,6 +19,8 @@ public class CustomerService {
 		   customers.put(newCustomer.getCustomer_id(), newCustomer);
 		return newCustomer;
 	}
+	
+	
 	
 	
 	public List<Customer> getAllCustomers() {
