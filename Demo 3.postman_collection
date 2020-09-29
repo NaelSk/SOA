@@ -1,0 +1,239 @@
+{
+	"id": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+	"name": "SOA and CC ",
+	"description": "",
+	"order": [
+		"3254eeac-aba2-b8ad-1c51-ceb355fabf82",
+		"054ed30e-61cb-5d04-9d70-dc59a9030af6",
+		"2e6b8e7f-83de-7840-bcdc-468759dfc881",
+		"d29606f2-14e5-6c78-5d23-0062cbecd76e",
+		"4b39c8e5-8e45-70c4-d21b-ff6138d5ed4d",
+		"0ba7e351-3ae3-d266-085f-b5209a3d85cb",
+		"a7c45937-5a63-74a1-1e82-a5e4e22330e8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1600407725620,
+	"owner": "3635678",
+	"public": false,
+	"requests": [
+		{
+			"id": "054ed30e-61cb-5d04-9d70-dc59a9030af6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8081/CalculatorService/addition?num1=5&num2=4&cur=CAD",
+			"queryParams": [
+				{
+					"key": "num1",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "num2",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "cur",
+					"value": "CAD",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"data": null,
+			"dataMode": "params",
+			"name": "calc",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601299338657,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "0ba7e351-3ae3-d266-085f-b5209a3d85cb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Accommodation/webapi/customers/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601375236492,
+			"name": "delete custmer",
+			"description": "",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"responses": [],
+			"rawModeData": "{\n\tname:\"Client01\"\n    email:\"client01@habal.com\"\n}"
+		},
+		{
+			"id": "2e6b8e7f-83de-7840-bcdc-468759dfc881",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Accommodation/webapi/customers",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601303374540,
+			"name": "get custmers",
+			"description": "",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"responses": [],
+			"rawModeData": "{\n\tname:\"Client01\"\n    email:\"client01@habal.com\"\n}"
+		},
+		{
+			"id": "3254eeac-aba2-b8ad-1c51-ceb355fabf82",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"data": null,
+			"dataMode": "params",
+			"name": "calc",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601220288218,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4b39c8e5-8e45-70c4-d21b-ff6138d5ed4d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Accommodation/webapi/customers/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601375223296,
+			"name": "modify custmer",
+			"description": "",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"responses": [],
+			"rawModeData": "{   \"id\":1,\n\t\"name\":\"Modified\",\n    \"email\":\"Modified01@habal.com\"\n}"
+		},
+		{
+			"id": "a7c45937-5a63-74a1-1e82-a5e4e22330e8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Accommodation/webapi/customers/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601375229578,
+			"name": "Get one customer",
+			"description": "",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"responses": [],
+			"rawModeData": "{\n\t\n\t\"name\":\"NewClient01\",\n    \"email\":\"client0001@habal.com\"\n}"
+		},
+		{
+			"id": "d29606f2-14e5-6c78-5d23-0062cbecd76e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/Accommodation/webapi/customers",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601375239861,
+			"name": "post custmers",
+			"description": "",
+			"collectionId": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Client00\",\n    \"email\": \"client00@habal.com\"\n}"
+		}
+	]
+}
