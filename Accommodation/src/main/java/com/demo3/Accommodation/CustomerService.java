@@ -42,5 +42,11 @@ public class CustomerService {
 	   
 	   
    }
+   
+   public Customer deleteCustomer(long id) {
+	   
+	   return customers.remove(id);
+	   
+   }
 
 }

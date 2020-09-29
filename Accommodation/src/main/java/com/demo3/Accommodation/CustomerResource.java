@@ -3,6 +3,7 @@ package com.demo3.Accommodation;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
@@ -49,7 +50,18 @@ public class CustomerResource {
 	return upDatedCustomer;
 	}
 	
+
+    @DELETE
+	@Path("/{customerId}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	/*Todo 
+	 * This put method should check if the id in path
+	 * same as in the Jeson body and rejected if not.
+	 * */
+	public Customer removeCustomer(@PathParam("customerId") long id){
+	Customer deletedCustomer=customerService.deleteCustomer(id);
+	return deletedCustomer;
+	}
+}	
 	
-	
-	
-}
+
