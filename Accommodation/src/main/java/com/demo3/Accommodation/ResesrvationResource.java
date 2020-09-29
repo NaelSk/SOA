@@ -12,6 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
 
 @Path("/reservation")
 @Produces(MediaType.APPLICATION_JSON)
@@ -51,17 +53,21 @@ public class ResesrvationResource {
 	
 	@DELETE
 	@Consumes(MediaType.APPLICATION_JSON)
-	public List<Reservation> upDateReservation(@QueryParam("CustomerId")long cId){
+	public List<Reservation> deleteAllReservations(@QueryParam("CustomerId")long cId){
 	
-	return reservationService.deleteAllreservations(cId);
+	return ReservationService.deleteAllreservations(cId);
 	}
 	
 	@DELETE
 	@Path("/customer")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public List<Reservation>   cancelReservation(@QueryParam("customerId")long cId,@QueryParam("reservationId")long rId){
+	public Response   cancelReservation(@QueryParam("customerId")long cId,@QueryParam("reservationId")long rId){
 	
-	return reservationService.cancelReservation(cId,rId);
+	List <Reservation> list =reservationService.cancelReservation(cId,rId);
+	
+	return Response.status(Status.OK)
+			.entity("Reservation deleted")
+			.build(); 
 	}
 
 }
