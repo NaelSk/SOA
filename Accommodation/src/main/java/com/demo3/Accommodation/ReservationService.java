@@ -67,5 +67,28 @@ public class ReservationService {
 
 		return reservations.get(customer);
 	}
+	
+	public static List<Reservation> deleteAllreservations(long customerId){
+		Customer customer = CustomerService.getCustomerById(customerId);
+		return reservations.remove(customer);
+		
+	}
+	
+	public List<Reservation>  cancelReservation(long cId, long rId) {
+		Customer customer=CustomerService.getCustomerById(cId);
+		List<Reservation> reservationsList = reservations.get(customer);
+		
+        int index = -1;
+		for (int i = 0; i < reservationsList.size(); i++) {
+			if (rId == (reservationsList.get(i).getReservation_id())){
+				index =i;
+			}
+		}
+		if (index!=-1) {
+		reservationsList.remove(index);
+		}
+		reservations.put(customer, reservationsList);
+		return reservations.get(customer);
+	}
 
 }

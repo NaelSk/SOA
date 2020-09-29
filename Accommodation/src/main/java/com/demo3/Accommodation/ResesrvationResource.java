@@ -3,6 +3,7 @@ package com.demo3.Accommodation;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
@@ -48,6 +49,19 @@ public class ResesrvationResource {
 	return reservationService.upDateReservation(cId,rId,updDatedReservation);
 	}
 	
+	@DELETE
+	@Consumes(MediaType.APPLICATION_JSON)
+	public List<Reservation> upDateReservation(@QueryParam("CustomerId")long cId){
 	
+	return reservationService.deleteAllreservations(cId);
+	}
+	
+	@DELETE
+	@Path("/customer")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public List<Reservation>   cancelReservation(@QueryParam("customerId")long cId,@QueryParam("reservationId")long rId){
+	
+	return reservationService.cancelReservation(cId,rId);
+	}
 
 }

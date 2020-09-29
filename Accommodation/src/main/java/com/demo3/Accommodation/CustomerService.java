@@ -44,7 +44,7 @@ public class CustomerService {
    }
    
    public Customer deleteCustomer(long id) {
-	   
+	    ReservationService.deleteAllreservations(id);
 	   return customers.remove(id);
 	   
    }
