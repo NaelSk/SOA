@@ -343,7 +343,7 @@
 			"name": "DELETE one customer's Reservation",
 			"request": {
 				"url": {
-					"raw": "http://localhost:8080/Accommodation/webapi/reservation/customer?customerId=3&reservationId=2",
+					"raw": "http://localhost:8080/Accommodation/webapi/reservation/customer?customerId=3&reservationId=4",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -364,7 +364,7 @@
 						},
 						{
 							"key": "reservationId",
-							"value": "2",
+							"value": "4",
 							"equals": true,
 							"description": ""
 						}
@@ -377,6 +377,12 @@
 						"key": "Content-Type",
 						"value": "application/json",
 						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain",
+						"description": "",
+						"disabled": true
 					}
 				],
 				"body": {
