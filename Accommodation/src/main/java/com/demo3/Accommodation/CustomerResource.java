@@ -24,9 +24,9 @@ public class CustomerResource {
 	
 	
 	@GET
-	@Path("{customerId}")
+	@Path("/{customerId}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Customer getCustomer(@PathParam("customerId") long id){
+	public Customer getCustomer(@PathParam("customerId") long  id){
 	Customer required_customer = customerService.getCustomerById(id);
 	return required_customer;
 	}
@@ -38,12 +38,18 @@ public class CustomerResource {
 	}
 	
 	@PUT
-	@Path("{customerId}")
+	@Path("/{customerId}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Customer updateCustomer(@PathParam("customerId") long id, Customer upDatedCustomer){
-	upDatedCustomer.setCustomer_id(id);
-	return customerService.upDateCutomer(upDatedCustomer);
+	/*Todo 
+	 * This put method should check if the id in path
+	 * same as in the Jeson body and rejected if not.
+	 * */
+	public Customer updateCustomer(@PathParam("customerId") long id, Customer outDatedCustomer){
+	Customer upDatedCustomer=customerService.upDateCutomer(outDatedCustomer);
+	return upDatedCustomer;
 	}
+	
+	
 	
 	
 }

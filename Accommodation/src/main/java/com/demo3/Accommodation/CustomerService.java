@@ -30,8 +30,7 @@ public class CustomerService {
    public Customer getCustomerById(long id) {
 	   
 	   Customer foundedCustomer=customers.get(id);
-	   
-	   
+	      
 	return foundedCustomer;
 	   
    }
