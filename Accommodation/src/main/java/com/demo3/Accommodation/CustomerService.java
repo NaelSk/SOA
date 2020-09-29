@@ -35,8 +35,8 @@ public class CustomerService {
 	   
    }
    
-   public Customer upDateCutomer(Customer modifyCustomer) {
-	   
+   public Customer upDateCutomer(Customer modifyCustomer, long id) {
+	   modifyCustomer.setCustomer_id(id);
 	   customers.put(modifyCustomer.getCustomer_id(), modifyCustomer);
 	   return  modifyCustomer;
 	   

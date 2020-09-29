@@ -46,7 +46,7 @@ public class CustomerResource {
 	 * same as in the Jeson body and rejected if not.
 	 * */
 	public Customer updateCustomer(@PathParam("customerId") long id, Customer outDatedCustomer){
-	Customer upDatedCustomer=customerService.upDateCutomer(outDatedCustomer);
+	Customer upDatedCustomer=customerService.upDateCutomer(outDatedCustomer, id);
 	return upDatedCustomer;
 	}
 	
