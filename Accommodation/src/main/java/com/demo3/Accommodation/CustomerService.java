@@ -27,7 +27,7 @@ public class CustomerService {
 		return new ArrayList<Customer>(customers.values());
 	}
 	
-   public Customer getCustomerById(long id) {
+   public static Customer getCustomerById(long id) {
 	   
 	   Customer foundedCustomer=customers.get(id);
 	      

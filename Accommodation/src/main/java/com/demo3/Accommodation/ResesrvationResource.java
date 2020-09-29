@@ -9,31 +9,43 @@ import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 @Path("/reservation")
 @Produces(MediaType.APPLICATION_JSON)
 public class ResesrvationResource {
-	
 	ReservationService reservationService=new ReservationService(); 
+	
 	@GET
-	@Path("{customerId}")
+	@Path("/{customerId}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Reservation> getReservation(@PathParam("customerId") long id ){
+	public List<Reservation> getReservation(@PathParam("customerId") long id){
 	return reservationService.getReservationsByCustomerId(id);
 	}
 	
-	@POST
-	@Consumes(MediaType.APPLICATION_JSON)
-	public List <Reservation> addReservation (Reservation reservation){
-	 
-			return reservationService.addReservation(reservation);
+	@GET
+	@Path("/customer")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Reservation getReservation(@QueryParam("ReservationId")long rId,@QueryParam("CustomerId")long cId){
+	return reservationService.getReservationById(rId,cId);
 	}
+		
+	
+	@POST
+	@Path("/{customerId}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Reservation addReservation (@PathParam("customerId") long id, Reservation newReservation){
+	 
+			return ReservationService.addReservation(newReservation,id);
+	}
+
+	
 	@PUT
 	@Consumes(MediaType.APPLICATION_JSON)
-	public List<Reservation> upDateReservation(Reservation updDatedReservation){
+	public List<Reservation> upDateReservation(@QueryParam("ReservationId")long rId,@QueryParam("CustomerId")long cId,Reservation updDatedReservation){
 	
-	return reservationService.upDateReservation(updDatedReservation);
+	return reservationService.upDateReservation(cId,rId,updDatedReservation);
 	}
 	
 	

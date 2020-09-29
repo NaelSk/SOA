@@ -3,20 +3,19 @@ package com.demo3.Accommodation;
 public class Reservation {
 
 	private Long reservation_id;
-	private Long customer_id;
-	private Long accommodation_id;
-
-	public Reservation(Long reservCustomer_id, Long reservaccommodation) {
-		this.customer_id = reservCustomer_id;
-		this.accommodation_id=reservaccommodation; 
+	private String Country;
+	
+	public Reservation() {
+		this.Country="";
+	}
+	
+		
+	public String getCountry() {
+		return Country;
 	}
 
-	public Long getAccommodation_id() {
-		return accommodation_id;
-	}
-
-	public void setAccommodation_id(Long accommodation_id) {
-		this.accommodation_id = accommodation_id;
+	public void setCountry(String country) {
+		Country = country;
 	}
 
 	public Long getReservation_id() {
@@ -27,12 +26,7 @@ public class Reservation {
 		this.reservation_id = reservation_id;
 	}
 
-	public Long getCustomer_id() {
-		return customer_id;
-	}
+	
 
-	public void setCustomer_id(Long customer_id) {
-		this.customer_id = customer_id;
-	}
-
+	
 }

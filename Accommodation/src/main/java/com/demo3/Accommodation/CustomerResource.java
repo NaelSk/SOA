@@ -28,7 +28,7 @@ public class CustomerResource {
 	@Path("/{customerId}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Customer getCustomer(@PathParam("customerId") long  id){
-	Customer required_customer = customerService.getCustomerById(id);
+	Customer required_customer = CustomerService.getCustomerById(id);
 	return required_customer;
 	}
 	

@@ -7,7 +7,7 @@ import java.util.Map;
 public class DBclass {
 
 	private static Map<Long, Customer> customers = new HashMap<Long, Customer>();
-	private static Map<Long, List<Reservation>> reservations = new HashMap<Long, List <Reservation>>();
+	private static Map<Customer, List<Reservation>> reservations = new HashMap<Customer, List <Reservation>>();
 	
 	private static Long customersC = (long) 0;
 	private static Long reservationC=(long)0;
@@ -17,13 +17,13 @@ public class DBclass {
 		return reservationC;
 	}
 
-
+    // This wrong shuold eliminated as you start finishing
 	public static void setReservationC(Long reservationC) {
 		DBclass.reservationC = reservationC;
 	}
 
 
-	public static Map<Long, List<Reservation>> getReservations() {
+	public static Map<Customer, List<Reservation>> getReservations() {
 		return reservations;
 	}
 
