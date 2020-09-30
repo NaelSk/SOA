@@ -16,52 +16,48 @@ import javax.ws.rs.core.MediaType;
 @Produces(MediaType.APPLICATION_JSON)
 public class CustomerResource {
 	CustomerService customerService = new CustomerService();
-	
+
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Customer> getCustomers(){
-	return customerService.getAllCustomers();
+	public List<Customer> getCustomers() {
+		return customerService.getAllCustomers();
 	}
-	
-	
+
 	@GET
 	@Path("/{customerId}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Customer getCustomer(@PathParam("customerId") long  id){
-	Customer required_customer = CustomerService.getCustomerById(id);
-	return required_customer;
+	public Customer getCustomer(@PathParam("customerId") long id) {
+		Customer required_customer = CustomerService.getCustomerById(id);
+		return required_customer;
 	}
-	
+
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Customer addCustomer (Customer customer){
-	return CustomerService.addCustomer(customer);
+	public Customer addCustomer(Customer customer) {
+		return CustomerService.addCustomer(customer);
 	}
-	
+
 	@PUT
 	@Path("/{customerId}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	/*Todo 
-	 * This put method should check if the id in path
-	 * same as in the Jeson body and rejected if not.
-	 * */
-	public Customer updateCustomer(@PathParam("customerId") long id, Customer outDatedCustomer){
-	Customer upDatedCustomer=customerService.upDateCutomer(outDatedCustomer, id);
-	return upDatedCustomer;
+	/*
+	 * Todo This put method should check if the id in path same as in the Jeson body
+	 * and rejected if not.
+	 */
+	public Customer updateCustomer(@PathParam("customerId") long id, Customer outDatedCustomer) {
+		Customer upDatedCustomer = customerService.upDateCutomer(outDatedCustomer, id);
+		return upDatedCustomer;
 	}
-	
 
-    @DELETE
+	@DELETE
 	@Path("/{customerId}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	/*Todo 
-	 * This put method should check if the id in path
-	 * same as in the Jeson body and rejected if not.
-	 * */
-	public Customer removeCustomer(@PathParam("customerId") long id){
-	Customer deletedCustomer=customerService.deleteCustomer(id);
-	return deletedCustomer;
+	/*
+	 * Todo This put method should check if the id in path same as in the Jeson body
+	 * and rejected if not.
+	 */
+	public Customer removeCustomer(@PathParam("customerId") long id) {
+		Customer deletedCustomer = customerService.deleteCustomer(id);
+		return deletedCustomer;
 	}
-}	
-	
-
+}

@@ -14,7 +14,7 @@ public class ReservationService {
 	 * 0;// This could guarantee that each customer has uniqe id }
 	 */
 
-	public List<Reservation> getReservationsByCustomerId(long customer_id) {
+	public static List<Reservation> getReservationsByCustomerId(long customer_id) {
 		Customer customer = CustomerService.getCustomerById(customer_id);
 		return reservations.get(customer);
 	}
@@ -52,7 +52,7 @@ public class ReservationService {
 		return null;
 	}
 
-	public List<Reservation> upDateReservation(long customerId, long reservationId, Reservation modifyreservation) {
+	public static List<Reservation> upDateReservation(long customerId, long reservationId, Reservation modifyreservation) {
 		Customer customer = CustomerService.getCustomerById(customerId);
 		List<Reservation> reservationsList = reservations.get(customer);
 		modifyreservation.setReservation_id(reservationId);
@@ -74,7 +74,7 @@ public class ReservationService {
 		
 	}
 	
-	public List<Reservation>  cancelReservation(long cId, long rId) {
+	public static List<Reservation>  cancelReservation(long cId, long rId) {
 		Customer customer=CustomerService.getCustomerById(cId);
 		List<Reservation> reservationsList = reservations.get(customer);
 		

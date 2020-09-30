@@ -23,19 +23,20 @@ public class CustomerService {
 	
 	
 	
-	public List<Customer> getAllCustomers() {
+	public static List<Customer> getAllCustomers() {
 		return new ArrayList<Customer>(customers.values());
 	}
 	
    public static Customer getCustomerById(long id) {
 	   
 	   Customer foundedCustomer=customers.get(id);
+	  
 	      
 	return foundedCustomer;
 	   
    }
    
-   public Customer upDateCutomer(Customer modifyCustomer, long id) {
+   public static Customer upDateCutomer(Customer modifyCustomer, long id) {
 	   modifyCustomer.setCustomer_id(id);
 	   customers.put(modifyCustomer.getCustomer_id(), modifyCustomer);
 	   return  modifyCustomer;
@@ -43,10 +44,13 @@ public class CustomerService {
 	   
    }
    
-   public Customer deleteCustomer(long id) {
+   public static Customer deleteCustomer(long id) {
 	    ReservationService.deleteAllreservations(id);
 	   return customers.remove(id);
 	   
    }
+   
+   
+   
 
 }
