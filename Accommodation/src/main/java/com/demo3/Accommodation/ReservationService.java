@@ -37,7 +37,7 @@ public class ReservationService {
 		return newReservation;
 	}
 
-	public Reservation getReservationById(long reservation_id, long customerId) {
+	public static Reservation getReservationById(long reservation_id, long customerId) {
 		Customer customer = CustomerService.getCustomerById(customerId);
 		List<Reservation> customer_reservations = reservations.get(customer);
 

@@ -1,66 +1,12 @@
 {
 	"variables": [],
 	"info": {
-		"name": "SOA and CC ",
-		"_postman_id": "498a583a-9dda-e0d7-d0b8-47884e5bbde7",
+		"name": "Jersey",
+		"_postman_id": "3188dbd1-ea42-12f9-fccb-9bf130e1f55c",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
-		{
-			"name": "calc",
-			"request": {
-				"url": "",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "calc",
-			"request": {
-				"url": {
-					"raw": "http://localhost:8081/CalculatorService/addition?num1=5&num2=4&cur=CAD",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"CalculatorService",
-						"addition"
-					],
-					"query": [
-						{
-							"key": "num1",
-							"value": "5",
-							"equals": true,
-							"description": ""
-						},
-						{
-							"key": "num2",
-							"value": "4",
-							"equals": true,
-							"description": ""
-						},
-						{
-							"key": "cur",
-							"value": "CAD",
-							"equals": true,
-							"description": ""
-						}
-					],
-					"variable": []
-				},
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
-		},
 		{
 			"name": "GET custmers",
 			"request": {
@@ -84,7 +30,7 @@
 		{
 			"name": "GET one customer",
 			"request": {
-				"url": "http://localhost:8080/Accommodation/webapi/customers/10",
+				"url": "http://localhost:8080/Accommodation/webapi/customers/3",
 				"method": "GET",
 				"header": [
 					{
@@ -102,7 +48,7 @@
 			"response": []
 		},
 		{
-			"name": "POST custmers",
+			"name": "POST custmer",
 			"request": {
 				"url": "http://localhost:8080/Accommodation/webapi/customers",
 				"method": "POST",
@@ -144,28 +90,8 @@
 		{
 			"name": "DELETE custmer",
 			"request": {
-				"url": "http://localhost:8080/Accommodation/webapi/customers/3",
+				"url": "http://localhost:8080/Accommodation/webapi/customers/5",
 				"method": "DELETE",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n\tname:\"Client01\"\n    email:\"client01@habal.com\"\n}"
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "GET Reservations",
-			"request": {
-				"url": "http://localhost:8080/Accommodation/webapi/reservation/3",
-				"method": "GET",
 				"header": [
 					{
 						"key": "Content-Type",
@@ -184,7 +110,7 @@
 		{
 			"name": "POST reservation",
 			"request": {
-				"url": "http://localhost:8080/Accommodation/webapi/reservation/3",
+				"url": "http://localhost:8080/Accommodation/webapi/customers/3/reservation",
 				"method": "POST",
 				"header": [
 					{
@@ -195,7 +121,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\n    \"country\":\"Germany\"\n}"
+					"raw": "{\n\t\n    \"country\":\"Finland\"\n}"
 				},
 				"description": ""
 			},
@@ -204,35 +130,7 @@
 		{
 			"name": "GET one Reservation",
 			"request": {
-				"url": {
-					"raw": "http://localhost:8080/Accommodation/webapi/reservation/customer?ReservationId=1&CustomerId=3",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"Accommodation",
-						"webapi",
-						"reservation",
-						"customer"
-					],
-					"query": [
-						{
-							"key": "ReservationId",
-							"value": "1",
-							"equals": true,
-							"description": ""
-						},
-						{
-							"key": "CustomerId",
-							"value": "3",
-							"equals": true,
-							"description": ""
-						}
-					],
-					"variable": []
-				},
+				"url": "http://localhost:8080/Accommodation/webapi/customers/3/reservation/2",
 				"method": "GET",
 				"header": [
 					{
@@ -253,7 +151,7 @@
 			"name": "PUT Reservations",
 			"request": {
 				"url": {
-					"raw": "http://localhost:8080/Accommodation/webapi/reservation/?ReservationId=4&CustomerId=1",
+					"raw": "http://localhost:8080/Accommodation/webapi/customers/3/reservation?ReservationId=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -262,18 +160,13 @@
 					"path": [
 						"Accommodation",
 						"webapi",
-						"reservation",
-						""
+						"customers",
+						"3",
+						"reservation"
 					],
 					"query": [
 						{
 							"key": "ReservationId",
-							"value": "4",
-							"equals": true,
-							"description": ""
-						},
-						{
-							"key": "CustomerId",
 							"value": "1",
 							"equals": true,
 							"description": ""
@@ -300,29 +193,7 @@
 		{
 			"name": "DELETE ALL one customer Reservations",
 			"request": {
-				"url": {
-					"raw": "http://localhost:8080/Accommodation/webapi/reservation/?CustomerId=1",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"Accommodation",
-						"webapi",
-						"reservation",
-						""
-					],
-					"query": [
-						{
-							"key": "CustomerId",
-							"value": "1",
-							"equals": true,
-							"description": ""
-						}
-					],
-					"variable": []
-				},
+				"url": "http://localhost:8080/Accommodation/webapi/customers/3/reservations",
 				"method": "DELETE",
 				"header": [
 					{
@@ -343,7 +214,7 @@
 			"name": "DELETE one customer's Reservation",
 			"request": {
 				"url": {
-					"raw": "http://localhost:8080/Accommodation/webapi/reservation/customer?customerId=3&reservationId=4",
+					"raw": "http://localhost:8080/Accommodation/webapi/customers/3/reservation?reservationId=4",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -352,16 +223,11 @@
 					"path": [
 						"Accommodation",
 						"webapi",
-						"reservation",
-						"customer"
+						"customers",
+						"3",
+						"reservation"
 					],
 					"query": [
-						{
-							"key": "customerId",
-							"value": "3",
-							"equals": true,
-							"description": ""
-						},
 						{
 							"key": "reservationId",
 							"value": "4",

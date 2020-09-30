@@ -17,27 +17,13 @@ public class Customer  {
     
     public String name;
 	public String email;
-	public List <Reservation> customerReservation=new ArrayList <Reservation> ();
+	
 	
 	public Customer() {
 		this.name="";
 		this.email="";
 	}
 	
-	
-	
-	public List<Reservation> getCustomerReservation() {
-		return customerReservation;
-	}
-
-
-
-	public void setCustomerReservation(List<Reservation> customerReservation) {
-		this.customerReservation = customerReservation;
-	}
-
-
-
 	public void setCustomer_id(Long  customer_id) {
 		this.customer_id = customer_id;
 	}
